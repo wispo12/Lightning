@@ -21,14 +21,14 @@ void draw()
   stroke(217,222,0);
  
  
-endX=startX+(int)(Math.random()10);
-endY=startY+((int)(Math.random()20)-10);
+endX=startX+(int)(Math.random()*10);
+endY=startY+((int)(Math.random()*20)-10);
 //line(startX,startY,endX,endY);
 startX=endX;
 startY=endY;
 
-endx=startx+(int)(Math.random()10);
-endy=starty+((int)(Math.random()20)-10);
+endx=startx+(int)(Math.random()*10);
+endy=starty+((int)(Math.random()*20)-10);
 //line(startX,startY,endX,endY);
 startx=endx;
 starty=endy;
